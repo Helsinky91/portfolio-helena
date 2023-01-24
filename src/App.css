@@ -1,38 +1,341 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  /* background-color: rgba(127, 255, 212, 0.15); */
+  /* background-image: url('../public/geometrc.png') ; */
+  /* background-size: 70%; */
+  /* background-repeat: no-repeat; */
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+}
+
+.App a {
+  text-decoration: none;
+}
+
+.App li {
+  list-style-type: none;
+}
+
+.navbar{
+  /* background-color: rgba(165, 42, 42, 0.855); */
+  /* background-color: rgb(255, 131, 122);*/
+  background-color: rgba(84, 90, 115, 0.864);
+ 
+  /* background-color: rgba(85, 116, 106, 0.3); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  font-size: 12px;
+}
+
+.navbar button {
+  margin: 3px 8px;
+  border-radius: 25px;
+  font-family: 'VT323', monospace;
+}
+
+.navbar button:hover {
+  background-color: rgb(43, 226, 186);
+  color: black;
+  /* font-size: 16px; */
+  /* border-color: rgb(43, 226, 186) ; */
+  border-width: 2px;
+}
+
+.navbar a {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-active button {
+  background-color: rgb(43, 226, 186) ;
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-inactive button {
+  background-color: black;
+  color: white;
 }
+
+.home-light {
+  background-image: url('../public/bcn-skyline3.png') ;
+  background-repeat: no-repeat;
+  height: 250px;
+  background-position: center;
+}
+
+.home-dark {
+  background-image: url('../public/bcn-sunset.png') ;
+  background-repeat: no-repeat;
+  height: 300px;
+  background-position: center;
+  
+  /* size: 400px */
+}
+
+.about {
+  /* background-color: rgba(255, 208, 122, 0.7); */
+  background-color: bisque;
+  padding: 3px 10px;
+  color: black;
+  padding-bottom: 15px;
+  
+}
+
+.personal-info{
+  display: flex;
+  justify-content: center;
+  color: black
+
+}
+
+.about-me{
+  width: 700px;
+  text-align: left;
+  padding-left: 20px;
+  color: black
+
+}
+
+.about-else {
+  /* display: flex;
+  justify-content: space-around;
+  align-items:flex-start;
+  flex-wrap: wrap;
+  color: black */
+  display: inline-block; 
+  justify-content: center;
+  width: 80%;
+  
+}
+.about li {
+  /* list-style-type: none; */
+  /* display: inline; */
+}
+
+.blue-color {
+  /* background-color: rgb(43, 226, 186); */
+  /* background-color: rgb(255, 131, 122, 0.8); */
+  background-color: rgba(52, 158, 182, 0.878);
+
+  margin: 10px;
+  padding: 10px;
+  border-radius: 25px;
+  color: black;
+  
+}
+
+.skill-name{
+  margin: 8px;
+  border-radius: 8px;
+  /* display: inline; */
+  display: inline-block;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  justify-content: center;
+  /* align-content: space-around; */
+  /* width: 90%; */
+  /* flex-shrink: 3 */
+}
+
+.hobbies {
+  background-color: rgb(255, 209, 122);
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 10px;
+  border-radius: 25px;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.not-found {
+  /* background-image: url('../public/broken.png') ; */
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-position: center;
+
+  /* display: flex;
+  align-items: center; */
+}
+.four-o-four{
+  background-image: url('../public/404.png') ;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-position: top;
+  
+}
+
+.hard-list {
+  display: flex;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  
+}
+.hard-li {
+  padding-right: 15px;  
+  /* justify-content: space-around; */
+}
+
+
+.social li {
+  /* list-style-type: none; */
+  display: inline-block;
+  margin: 5px;
+  /* justify-content: center; */
+}
+
+.linkedin-icon img {
+  width: 30px;
+}
+.github-icon img {
+  width: 30px;
+}
+.cv-icon img {
+  width: 30px;
+}
+.email-icon img {
+  width: 30px;
+}
+
+.job-list {
+  background-color: rgba(52, 158, 182, 0.878);
+  color: black;
+  padding-top: 15px;
+  margin-bottom: 15px;
+  /* padding-bottom: 10px; */
+  display: inline-block; 
+  justify-content: center;
+
+  flex-direction: column;
+  width: 60%;
+  /* align-content: ; */
+}
+.job-left {
+  text-align: right;
+  margin-right: 15px;
+}
+
+.job-description {
+  background-color: rgba(84, 90, 115, 0.764);
+  /* margin: 50px;
+  margin-bottom: 20px; */
+  color: white;
+  margin-bottom: 15px;
+  padding: 10px;
+  text-align: left;
+  
+}
+
+.dates {
+  font-size: 12px;
+}
+
+.job-description li {
+  list-style-type: circle
+}
+
+.hide-btn {
+  /* background-color: rgb(43, 226, 186) ;
+  */
+    background-color: rgba(52, 158, 182, 0.878);
+  color: black;
+  font-family: 'VT323', monospace;
+  border-radius: 25px;
+  margin-bottom: 15px;
+}
+
+.hide-btn:hover {
+  background-color: rgb(44, 254, 209) ;
+  font-size: 16px;
+  font-weight: 800;
+  
+}
+
+
+.project-list {
+  display: inline-block;
+  align-content:space-around; 
+  flex-wrap: wrap;
+  width: 470px;
+  /* justify-content: center;  */
+  color:black;
+  background-color: blanchedalmond;
+  padding: 10px;
+  margin: 8px;
+  border-top-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  margin-bottom: 15px;
+
+}
+
+.proj-description {
+  /* text-align: justify; */
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.project-list img {
+  border-top-left-radius: 2.5%;
+}
+
+.project-list a{
+  color: black
+}
+
+.project-list a:hover {
+  color:rgb(255, 131, 122)
+}
+
+/* .hide-description {
+  visibility: hidden;
+}
+
+.project-list:hover .hide-description {
+  visibility: visible;
+} */
+
+.project-list button {
+  /* background-color: rgb(44, 254, 209) ; */
+  background-color: rgba(52, 158, 182, 0.878);
+  
+  color: black;
+  font-family: 'VT323', monospace;
+  border-radius: 25px;
+}
+.project-list button:hover {
+  background-color: rgba(84, 90, 115);
+
+  /* color: white */
+}
+
+.project-list button >a:hover {
+  color: white;
+  font-weight: 800;
+}
+.studies {
+  margin: 10px;
+  padding: 20px;
+  /* width: 40%; */
+  /* position: center; */
+  text-align: center;
+  
+}
+.dark-blue-color {
+  color: white;
+  background-color: rgba(84, 90, 115, 0.764);
+  border-radius: 20px;
+}
+
+/* .studies-title {
+  text-align: center;
+}
+*/
+.studies-descrp {
+
+  margin-right: 30px;
+  margin-left: 30px;
+   
+} 
