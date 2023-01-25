@@ -3,7 +3,8 @@ import React from 'react'
 function NotFound() {
   return (
     <div className="not-found">
-      <h1>Go Back</h1>
+    <br />
+      <h2>Page not found</h2>
       <div className='four-o-four'>
 
       </div>

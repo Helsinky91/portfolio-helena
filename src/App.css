@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&family=Shadows+Into+Light&family=VT323&family=Viga&display=swap');
+
 .App {
   text-align: center;
   /* background-color: rgba(127, 255, 212, 0.15); */
@@ -16,19 +18,26 @@
 .App li {
   list-style-type: none;
 }
+h2{
+  font-family: 'Viga', sans-serif;
+}
+
+.welcome {
+  font-family: 'Anton', sans-serif;
+}
+.my-description {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 30px;
+}
 
 .navbar{
-  /* background-color: rgba(165, 42, 42, 0.855); */
-  /* background-color: rgb(255, 131, 122);*/
   background-color: rgba(84, 90, 115, 0.864);
- 
-  /* background-color: rgba(85, 116, 106, 0.3); */
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: sticky;
   top: 0;
-  font-size: 12px;
+  /* font-size: 12px; */
 }
 
 .navbar button {
@@ -100,13 +109,14 @@
 .about-else {
   display: inline-block; 
   justify-content: center;
-  width: 80%;
+  width: 70%;
 }
 
 .about-else h3 {
   text-decoration: underline rgba(84, 90, 115);
   padding-bottom: 25px;
   color: rgba(84, 90, 115);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .blue-color {
@@ -204,6 +214,17 @@
   min-height: 100vh;
   background-position: top;
   
+}
+
+.error {
+  background-image: url("https://res.cloudinary.com/ddzhdj4yd/image/upload/c_scale,w_900/v1674647351/pngwing.com_18_odaotj.png");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.error h2 {
+  align-items: baseline;
 }
 
 .hard-list {

@@ -14,7 +14,7 @@ function JobExp(props) {
 
   return (
     <div>
-      <h1>Job Experiences</h1>
+      <h2>Job Experiences</h2>
       <section>
         {/* <p>Soft skills, hard skills, education (+certificados), job experience</p> */}
         

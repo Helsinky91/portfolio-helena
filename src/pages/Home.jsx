@@ -25,9 +25,9 @@ function Home(props) {
       <div >
         <div className={assingHomeClass()}>
         
-        <h1>Welcome to {data.name}'s portfolio</h1>
+        <h1 className="welcome">Welcome to {data.name}'s portfolio</h1>
         </div>
-        <p> {data.myDescription}</p>
+        <p className="my-description"> {data.myDescription}</p>
       
       </div>
         <AboutMe data={data}/> 

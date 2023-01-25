@@ -10,7 +10,7 @@ function Projects(props) {
     <div>
 
       <section>
-        <h1>Live Projects</h1>
+        <h2>Live Projects</h2>
         <div >
           {data.projects.map((el) => {
             return (
@@ -54,7 +54,7 @@ function Projects(props) {
     
 
       <section>
-        <h1>Ongoing Projects</h1>
+        <h2>Ongoing Projects</h2>
         <div>
           {data.onWorkingProjects.map((el) => {
             return (
