@@ -398,21 +398,21 @@ let data = {
         {
             name: "Snake 2022 - project 1 at @Ironhack",
             description: "For the first project at @Ironhack I've recreated the 90's Snake game only using Canvas, HTML, CSS and Javascript. It is a bit raw and there is a lot of room of improvement, but this is the first project ever and I'm proud the way it turned out.",
-            imgurl: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674561042/thumbnail_Snake22_fg9jwb.png",
+            imgurl: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674637653/thumbnail_Snake22_yktl8g.png",
             url: "https://helsinky91.github.io/snake-2022/",
             gitHubUrl: "https://github.com/Helsinky91/snake-2022"
         },
         {
             name: "Worklog App - project 2 at @Ironhack",
             description: "For the second project at @Ironhack, my colleague Yago and I have developed an app that would log all worker's time in and out, as well as being able to see all company events and add them to favourites. For the creation of this app we've used HTML and Handlebars, CSS with Bootstrap, Javascript, Express.js, Node.js and MongoDB Atlas.",
-            imgurl: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674560868/thumbnail_Worklog_app_j0qcys.jpg",
+            imgurl: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674637650/thumbnail_Worklog_app_yztoz0.jpg",
             url: "https://worklog.cyclic.app/",
             gitHubUrl: "https://github.com/Helsinky91/worklog-app"
         },
         {
             name: "Whatcha cookin? - Project 3 at @Ironhack",
             description: "For the 3rd and final project at Ironhack, my colleague Yago and I have created a WebApp that is a social network to share recipes. To developed this, we've used all knowledge learned on the course: HTML, CSS with Bootstrap, Javascript using React.js, Node.js and MongoDB Atlas.",
-            imgurl: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674560868/thumbnail_Whatcha_cookin_e0vc9c.jpg",
+            imgurl: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674637650/thumbnail_Whatcha_cookin_wcyv8a.jpg",
             url: "https://whatcha-cookin.netlify.app/",
             gitHubUrl: "https://github.com/Helsinky91/whatcha-cookin-app-server"
         }
@@ -421,7 +421,7 @@ let data = {
         {
             name: "Blog Lo Común",
             description: "A customemade blog site for a starting blogger that wants a unique and basic interface.",
-            imgurl: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674505952/pexels-negative-space-169573_nyvsl9.jpg",
+            imgurl: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674638005/pexels-negative-space-169573_l5pcut.jpg",
             url: "",
             gitHubUrl: ""
         }

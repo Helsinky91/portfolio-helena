@@ -16,7 +16,7 @@ function Projects(props) {
             return (
               <div className="project-list">
                 <li key={el.name} >
-                  <img src={el.imgurl} alt={el.name} width={440} />
+                  <img src={el.imgurl} alt={el.name}  />
                   <p><b>{el.name}</b></p>
                   <p className='hide-description proj-description'>{el.description} </p>
                   <p><i><a href={el.gitHubUrl}  target="_blank">Check out the code</a></i> </p>
@@ -60,7 +60,7 @@ function Projects(props) {
             return (
               <div className="project-list">
                 <li key={el.name}>
-                  <img src={el.imgurl} alt={el.name} width={450} />
+                  <img src={el.imgurl} alt={el.name}  />
                   <p><b>{el.name}</b></p>
                   <p className='hide-description proj-description'>{el.description} </p> 
                   <p> 
