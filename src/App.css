@@ -258,7 +258,7 @@
   display: inline-block;
   align-content:space-around; 
   flex-wrap: wrap;
-  width: 425px;
+  width: 370px;
   /* justify-content: center;  */
   color:black;
   background-color: blanchedalmond;
@@ -278,7 +278,7 @@
 }
 
 .project-list img {
-  width: 400px;
+  width: 100%;
   border-top-left-radius: 2.5%;
 }
 
