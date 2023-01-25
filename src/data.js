@@ -40,6 +40,7 @@ let data = {
             school: "Ironhack",
             major: "Full Stak Web Developer",
             finishedAt: "Nov 2022",
+            // description: "9 weeks intensive web development bootcamp where we learned Front End Technologies that include:",
             achivements: "9 weeks intensive web development bootcamp where we learned Front End Technologies that include: HTML, CSS, JavaScript (ES6), React; helped by Bootstrap and Ant Design; and Back End Technologies that include: Express.js, Node.js, Axios, REST APIs, Postman, MongoDB",
             certificate: "https://www.credential.net/6683d67b-345c-437b-aeee-f034b49d2efa#gs.nga9wc"
         },
@@ -371,27 +372,33 @@ let data = {
     languages: [
         {
             languageName: "Catalan",
-            level: "Native or Bilingual Proficency"
+            level: "Native or Bilingual Proficency",
+            arrow: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674644379/pngwing.com_15_cpwyb0.png"
         },
         {
             languageName: "Spanish",
-            level: "Native or Bilingual Proficency"
+            level: "Native or Bilingual Proficency",
+            arrow: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674644379/pngwing.com_15_cpwyb0.png"
         },
         {
             languageName: "English",
-            level: "Full Professional Proficency"
+            level: "Full Professional Proficency",
+            arrow: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674644379/pngwing.com_15_cpwyb0.png"
         },
         {
             languageName: "German",
-            level: "Limited Working Proficency"
+            level: "Limited Working Proficency",
+            arrow: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674644379/pngwing.com_15_cpwyb0.png"
         },
         {
             languageName: "French",
-            level: "Limited Working Proficency"
+            level: "Limited Working Proficency",
+            arrow: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674644379/pngwing.com_15_cpwyb0.png"
         },
         {
             languageName: "Italian",
-            level: "Elementary Proficiency"
+            level: "Elementary Proficiency",
+            arrow: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674644379/pngwing.com_15_cpwyb0.png"
         },
     ],
     projects: [

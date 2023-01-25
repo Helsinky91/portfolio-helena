@@ -79,9 +79,11 @@ function AboutMe(props) {
             )})
           }
         </section>
+        <br />
         
         <section>
           <h3>HARD SKILLS</h3>
+  
           <div> 
           {/* <div className="twelve columns"> */}
             <ul className="hard-list">
@@ -112,7 +114,6 @@ function AboutMe(props) {
           <section > 
           <h3>STUDIES</h3>
           {allData.studies.map((el) => {
-              {/* <div key={el.major} style={studies} > */}
             return (
               <div key={el.major}  >
              
@@ -121,7 +122,7 @@ function AboutMe(props) {
                 <p><b>{el.major}</b> at <i>{el.school}</i></p>
                 </div>
                 <div className='studies-descrp'>
-                <p className='dates'>Finished on {el.finishedAt}</p>
+                <p className='dates'><i>Finished on {el.finishedAt}</i></p>
 
                 <p>{el.achivements}</p>
                 {el.certificate === "" 
@@ -136,13 +137,13 @@ function AboutMe(props) {
           }
           
           </section>
-
-          <section> 
+          <br />
+          <section > 
           <h3>LANGUAGES</h3>
           {allData.languages.map((el) => {
             return (
-              <div key={el.languageName}>
-                <li>{el.languageName} ➡️ <i>{el.level}</i></li>
+              <div key={el.languageName} className="languages"  >
+                <li ><b>{el.languageName}</b> <img src={el.arrow} alt={el.languageName} width={50}/> <i>{el.level}</i></li>
               </div>
             
             )})
