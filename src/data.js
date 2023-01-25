@@ -403,11 +403,11 @@ let data = {
     ],
     projects: [
         {
-            name: "Snake 2022 - project 1 at @Ironhack",
-            description: "For the first project at @Ironhack I've recreated the 90's Snake game only using Canvas, HTML, CSS and Javascript. It is a bit raw and there is a lot of room of improvement, but this is the first project ever and I'm proud the way it turned out.",
-            imgurl: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674637653/thumbnail_Snake22_yktl8g.png",
-            url: "https://helsinky91.github.io/snake-2022/",
-            gitHubUrl: "https://github.com/Helsinky91/snake-2022"
+            name: "Whatcha cookin? - Project 3 at @Ironhack",
+            description: "For the 3rd and final project at Ironhack, my colleague Yago and I have created a WebApp that is a social network to share recipes. To developed this, we've used all knowledge learned on the course: HTML, CSS with Bootstrap, Javascript using React.js, Node.js and MongoDB Atlas.",
+            imgurl: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674637650/thumbnail_Whatcha_cookin_wcyv8a.jpg",
+            url: "https://whatcha-cookin.netlify.app/",
+            gitHubUrl: "https://github.com/Helsinky91/whatcha-cookin-app-server"
         },
         {
             name: "Worklog App - project 2 at @Ironhack",
@@ -417,12 +417,12 @@ let data = {
             gitHubUrl: "https://github.com/Helsinky91/worklog-app"
         },
         {
-            name: "Whatcha cookin? - Project 3 at @Ironhack",
-            description: "For the 3rd and final project at Ironhack, my colleague Yago and I have created a WebApp that is a social network to share recipes. To developed this, we've used all knowledge learned on the course: HTML, CSS with Bootstrap, Javascript using React.js, Node.js and MongoDB Atlas.",
-            imgurl: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674637650/thumbnail_Whatcha_cookin_wcyv8a.jpg",
-            url: "https://whatcha-cookin.netlify.app/",
-            gitHubUrl: "https://github.com/Helsinky91/whatcha-cookin-app-server"
-        }
+            name: "Snake 2022 - project 1 at @Ironhack",
+            description: "For the first project at @Ironhack I've recreated the 90's Snake game only using Canvas, HTML, CSS and Javascript. It is a bit raw and there is a lot of room of improvement, but this is the first project ever and I'm proud the way it turned out.",
+            imgurl: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674637653/thumbnail_Snake22_yktl8g.png",
+            url: "https://helsinky91.github.io/snake-2022/",
+            gitHubUrl: "https://github.com/Helsinky91/snake-2022"
+        },
     ],
     onWorkingProjects: [
         {
