@@ -125,6 +125,17 @@ h2{
   padding: 10px;
   border-radius: 25px;
   color: black;
+  /* justify-content: center; */
+}
+
+.blue-color a{
+  color: white
+
+}
+
+.blue-color a:hover{
+  color: black
+
 }
 
 .skill-name{
@@ -133,27 +144,6 @@ h2{
   display: inline-block;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-
-.studies {
-  margin: 10px;
-  padding: 20px;
-  /* width: 90%; */
-  /* position: center; */
-  text-align: center;
-  display: flex;
-  justify-content:space-around;
-  
-  /* flex-wrap: wrap; */
-}
-
-.studies a {
-  color: white
-}
-
-.studies a:hover {
-  color: black
 }
 
 .dark-blue-color {
