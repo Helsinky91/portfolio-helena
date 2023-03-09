@@ -4,8 +4,8 @@ let data = {
     lastName: "Saborit",
     profilePic: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1666880132/movie-project/q5237cx5cxdvhegu7mgo.jpg",
     role: "Full Stack Web Developer",
-    myDescription: "Longlife learner changing paths from Tourism and Hospitality to Web Development",
-    aboutMe: "I'm recently changing career path due the curiosity created on my last job experience, where got a hint on HTML, CSS and Javascript. After this experience, I decided to study about these languages and fell in love with coding.",
+    myDescription: "Lifelong learner changing paths from Tourism and Hospitality to Web Development",
+    aboutMe: "I am recently changing career path due to the curiosity created on my last job experience, where I got a hint on HTML, CSS and Javascript. After this experience, I decided to study about these languages and fell in love with coding.",
     socialLinks: [
         {
             name:"linkedin",
@@ -74,28 +74,28 @@ let data = {
         },
     ], */ 
     jobs: [  
-        { 
-            companyName: "Lo Común", 
-            jobTitle: "Creation of customized Blog page",
-            startDate: "Jan 2023",
-            endDate: "ongoing",
-            location: "Remote",
-            jobDescription: "Creation of a personalized Full Stack Web for a Starting Blogger",
-            jobTasks: [
-                {
-                   task: "Creation of Frontend with Html, Css, JS, Bootstrap, React" //! here
-                },
-                {
-                    task: "Creation of Backend with Node.js, rest API." //! here
-                },
-                {
-                    task: "Brainstorm on looks and functionality, creation of basic UI/UX" 
-                },
-                {
-                    task: "TBD" 
-                },
-            ]
-        },
+        // { 
+        //     companyName: "Lo Común", 
+        //     jobTitle: "Creation of customized Blog page",
+        //     startDate: "Jan 2023",
+        //     endDate: "ongoing",
+        //     location: "Remote",
+        //     jobDescription: "Creation of a personalized Full Stack Web for a Starting Blogger",
+        //     jobTasks: [
+        //         {
+        //            task: "Creation of Frontend with Html, Css, JS, Bootstrap, React" //! here
+        //         },
+        //         {
+        //             task: "Creation of Backend with Node.js, rest API." //! here
+        //         },
+        //         {
+        //             task: "Brainstorm on looks and functionality, creation of basic UI/UX" 
+        //         },
+        //         {
+        //             task: "TBD" 
+        //         },
+        //     ]
+        // },
         { 
             companyName: "Casa Pop Berga", 
             jobTitle: "Founder & Manager of a touristic apartment",
