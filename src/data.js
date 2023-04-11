@@ -38,6 +38,14 @@ let data = {
     studies: [
         {
             school: "Ironhack",
+            major: "Full Stak with Java",
+            finishedAt: "currently studing",
+            // description: "9 weeks intensive web development bootcamp where we learned Front End Technologies that include:",
+            achivements: "9 weeks intensive web development bootcamp where we learned Java, SQL, TypeScript, Angular & API.",
+            // certificate: ""
+        },
+        {
+            school: "Ironhack",
             major: "Full Stak Web Developer",
             finishedAt: "Nov 2022",
             // description: "9 weeks intensive web development bootcamp where we learned Front End Technologies that include:",
@@ -425,13 +433,13 @@ let data = {
         },
     ],
     onWorkingProjects: [
-        {
-            name: "Blog Lo Común",
-            description: "A customemade blog site for a starting blogger that wants a unique and basic interface.",
-            imgurl: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674638005/pexels-negative-space-169573_l5pcut.jpg",
-            url: "",
-            gitHubUrl: ""
-        }
+        // {
+        //     name: "Blog Lo Común",
+        //     description: "A customemade blog site for a starting blogger that wants a unique and basic interface.",
+        //     imgurl: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674638005/pexels-negative-space-169573_l5pcut.jpg",
+        //     url: "",
+        //     gitHubUrl: ""
+        // }
     ],
     // hobbies: [
     //     {
