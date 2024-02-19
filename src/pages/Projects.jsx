@@ -19,6 +19,7 @@ function Projects(props) {
                   <img src={el.imgurl} alt={el.name}  />
                   <p><b>{el.name}</b></p>
                   <p className='hide-description proj-description'>{el.description} </p>
+                  <p>{el.techUsed}</p>
                   <p><i><a href={el.gitHubUrl}  target="_blank">Check out the code</a></i> </p>
                   <button><a href={el.url} target="_blank">See Website</a></button>
                   <p></p>
@@ -63,6 +64,7 @@ function Projects(props) {
                   <img src={el.imgurl} alt={el.name}  />
                   <p><b>{el.name}</b></p>
                   <p className='hide-description proj-description'>{el.description} </p> 
+                  
                   <p> 
                     {el.gitHubUrl === ""
                     ? <p></p>

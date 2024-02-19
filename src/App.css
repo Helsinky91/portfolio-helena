@@ -239,16 +239,16 @@ h2{
 }
 
 .linkedin-icon img {
-  width: 30px;
+  height: 30px;
 }
 .github-icon img {
-  width: 30px;
+  height: 40px;
 }
 .cv-icon img {
-  width: 30px;
+  height: 25px;
 }
 .email-icon img {
-  width: 30px;
+  height: 35px;
 }
 
 .job-list {

@@ -5,14 +5,21 @@ let data = {
     profilePic: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1666880132/movie-project/q5237cx5cxdvhegu7mgo.jpg",
     role: "Full Stack Web Developer",
     myDescription: "Lifelong learner changing paths from Tourism and Hospitality to Web Development",
-    aboutMe: "I am recently changing career path due to the curiosity created on my last job experience, where I got a hint on HTML, CSS and Javascript. After this experience, I decided to study about these languages and fell in love with coding.",
+    aboutMe: "I'm a Full Stack Web Developer with knowledge in Java and JavaScipt, but leaning towards JavaScript. I'm interested in both Backend and Frontend so feel free to reach me for any of those fields or for the Full Stack position!",
     socialLinks: [
+        {
+            name:"email",
+            url:"mailto:helena.sb91@gmail.com",
+            icon: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674475359/pngwing.com_11_tsq0hp.png",
+            className: 'email-icon'
+
+        },
         {
             name:"linkedin",
             url:"https://www.linkedin.com/in/helena-saborit/",
             icon: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674475274/linkdn_ks1wcg.png",
             className: 'linkedin-icon'
-        },
+        },       
         {
             name:"github",
             url:"https://github.com/Helsinky91",
@@ -21,19 +28,12 @@ let data = {
 
         },
         {
-            name:"email",
-            url:"mailto:helena.sb91@gmail.com",
-            icon: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674475359/pngwing.com_11_tsq0hp.png",
-            className: 'email-icon'
-
-          },
-          {
             name: "cv",
-            url:"https://drive.google.com/file/d/1sGbuurOPi_glXvQIZZnojWnfH-R5Z2Fg/view?usp=share_link",
+            url:"https://drive.google.com/file/d/1rv6EEtt9e85CTD9RKQa8-PMTgccaQEOI/view?usp=drive_link ",
             icon: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674475463/file_al922k.png",
             className: 'cv-icon'
 
-          }
+          } 
     ],
     studies: [
         {
@@ -42,7 +42,7 @@ let data = {
             finishedAt: "currently studing",
             // description: "9 weeks intensive web development bootcamp where we learned Front End Technologies that include:",
             achivements: "9 weeks intensive web development bootcamp where we learned Java, SQL, TypeScript, Angular & API.",
-            // certificate: ""
+            certificate: "https://www.credential.net/c43bbe42-0093-43cf-8637-deaf934b01f1#gs.4ph3x6"
         },
         {
             school: "Ironhack",
@@ -52,13 +52,13 @@ let data = {
             achivements: "9 weeks intensive web development bootcamp where we learned Front End Technologies that include: HTML, CSS, JavaScript (ES6), React; helped by Bootstrap and Ant Design; and Back End Technologies that include: Express.js, Node.js, Axios, REST APIs, Postman, MongoDB",
             certificate: "https://www.credential.net/6683d67b-345c-437b-aeee-f034b49d2efa#gs.nga9wc"
         },
-        {
-            school: "CodeCademy",
-            major: "JavaScript: Fundamentals Course", 
-            finishedAt: "Jan 2023",
-            achivements: "Refreshment on JavaScript basics", 
-            certificate: "https://www.codecademy.com/profiles/Helsinky91/certificates/6494a05213df47028c37a0fe6e70a202"
-        },
+        // {
+        //     school: "CodeCademy",
+        //     major: "JavaScript: Fundamentals Course", 
+        //     finishedAt: "Jan 2023",
+        //     achivements: "Refreshment on JavaScript basics", 
+        //     certificate: "https://www.codecademy.com/profiles/Helsinky91/certificates/6494a05213df47028c37a0fe6e70a202"
+        // },
         {
             school: "UAB",
             major: "Tourismus Degree",
@@ -82,47 +82,43 @@ let data = {
         },
     ], */ 
     jobs: [  
-        // { 
-        //     companyName: "Lo Común", 
-        //     jobTitle: "Creation of customized Blog page",
-        //     startDate: "Jan 2023",
-        //     endDate: "ongoing",
-        //     location: "Remote",
-        //     jobDescription: "Creation of a personalized Full Stack Web for a Starting Blogger",
-        //     jobTasks: [
-        //         {
-        //            task: "Creation of Frontend with Html, Css, JS, Bootstrap, React" //! here
-        //         },
-        //         {
-        //             task: "Creation of Backend with Node.js, rest API." //! here
-        //         },
-        //         {
-        //             task: "Brainstorm on looks and functionality, creation of basic UI/UX" 
-        //         },
-        //         {
-        //             task: "TBD" 
-        //         },
-        //     ]
-        // },
         { 
-            companyName: "Casa Pop Berga", 
-            jobTitle: "Founder & Manager of a touristic apartment",
-            startDate: "Aug 2020",
-            endDate: "May 2022",
-            location: "Berga, Catalonia, Spain",
-            jobDescription: "After a full renovation of bathrooms and kitchen, I've rented the apartment for tourist.",
+            companyName: "Freelance Job (MartAlex)", 
+            jobTitle: "Freelance Wedding MERN WebApp",
+            startDate: "Dec 2023",
+            endDate: "Feb 2024",
+            location: "Remote",
+            jobDescription: "Creation of a personalized Full Stack Web for wedding planning.",
             jobTasks: [
                 {
-                   task: "Compare and adjust prices, manage Bookings and Revenues" 
+                   task: "WebApp developed with React.js, Nodel.js, MongoDB and Express.js, with some Bootstrap."
                 },
                 {
-                    task: "Ensuring the best Guest Experience, with self-check in and out, and a 24h online help if needed." 
+                    task: "Worked togethe with an UX/UI designer to ensure best looks & workability of the website." 
                 },
                 {
-                    task: "Coordination with external Housekeeping agency." 
-                }
+                    task: "See more details in my 'Projects' page." 
+                },
             ]
         },
+        { 
+            companyName: "Accenture Spain", 
+            jobTitle: "Junior Software Developer",
+            startDate: "June 2023",
+            endDate: "Current position",
+            location: "Remote",
+            jobDescription: "Full stack developer with the following tasks:",
+            jobTasks: [
+                {
+                   task: "Provide application and technical support as required."
+                },
+                {
+                    task: "Keep up with the new skills and internal trainings provided by the company." 
+                },
+                
+            ]
+        },
+        
         { 
             companyName: "Travelclick S.L.", 
             jobTitle: "GMS Premier Agent",
@@ -157,6 +153,25 @@ let data = {
         },
     ],
     tourismJobs: [
+        { 
+            companyName: "Casa Pop Berga", 
+            jobTitle: "Founder & Manager of a touristic apartment",
+            startDate: "Aug 2020",
+            endDate: "May 2022",
+            location: "Berga, Catalonia, Spain",
+            jobDescription: "After a full renovation of bathrooms and kitchen, I've rented the apartment for tourist.",
+            jobTasks: [
+                {
+                   task: "Compare and adjust prices, manage Bookings and Revenues" 
+                },
+                {
+                    task: "Ensuring the best Guest Experience, with self-check in and out, and a 24h online help if needed." 
+                },
+                {
+                    task: "Coordination with external Housekeeping agency." 
+                }
+            ]
+        },
         {
             companyName: "Smart Rooms Company",
             jobTitle: "Tourist Apartments Customer Service Agent",
@@ -411,31 +426,50 @@ let data = {
     ],
     projects: [
         {
+            name: "MartAlex Wedding Web",
+            description: "The client wanted a website where the wedding guests would be able to choose a Cosplay to wear during the wedding and track the attendance of the guests.",
+            techUsed: "Developed with React.js, Node.js, Express.js and MongoDB Atlas, and styled with CSS and Bootstrap.",
+            imgurl: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1708355998/thumbnail_MartAlex_Web_aegb96.jpg",
+            url: "https://whatcha-cookin.netlify.app/",
+            gitHubUrl: "https://github.com/Helsinky91/martalex-lista-client"
+        },
+        {
             name: "Whatcha cookin? - Project 3 at @Ironhack",
-            description: "For the 3rd and final project at Ironhack, my colleague Yago and I have created a WebApp that is a social network to share recipes. To developed this, we've used all knowledge learned on the course: HTML, CSS with Bootstrap, Javascript using React.js, Node.js and MongoDB Atlas.",
+            description: "For the final project at Ironhack, we created a WebApp that is a social network to share recipes, add friends and like and comment on those recepies.",
+            techUsed: "Developed with HTML, CSS with Bootstrap, Javascript using React.js, Node.js, Express.js and MongoDB Atlas.",
             imgurl: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674637650/thumbnail_Whatcha_cookin_wcyv8a.jpg",
             url: "https://whatcha-cookin.netlify.app/",
             gitHubUrl: "https://github.com/Helsinky91/whatcha-cookin-app-server"
         },
         {
             name: "Worklog App - project 2 at @Ironhack",
-            description: "For the second project at @Ironhack, my colleague Yago and I have developed an app that would log all worker's time in and out, as well as being able to see all company events and add them to favourites. For the creation of this app we've used HTML and Handlebars, CSS with Bootstrap, Javascript, Express.js, Node.js and MongoDB Atlas.",
+            description: "We developed an app that would log all worker's time in and out, as well as being able to see all company events and add them to favourites.",
+            techUsed: "Developed with HTML and Handlebars, CSS with Bootstrap, Javascript, Express.js, Node.js and MongoDB Atlas.",
             imgurl: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674637650/thumbnail_Worklog_app_yztoz0.jpg",
             url: "https://worklog.cyclic.app/",
             gitHubUrl: "https://github.com/Helsinky91/worklog-app"
         },
         {
             name: "Snake 2022 - project 1 at @Ironhack",
-            description: "For the first project at @Ironhack I've recreated the 90's Snake game only using Canvas, HTML, CSS and Javascript. It is a bit raw and there is a lot of room of improvement, but this is the first project ever and I'm proud the way it turned out.",
+            description: "For the first project at @Ironhack I've recreated the 90's Snake game. It is a bit raw and there is a lot of room of improvement, but this is the first project ever and I'm proud the way it turned out.",
+            techUsed: "Developed in a week only using Canvas, HTML, CSS and Javascript.",
             imgurl: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674637653/thumbnail_Snake22_yktl8g.png",
             url: "https://helsinky91.github.io/snake-2022/",
             gitHubUrl: "https://github.com/Helsinky91/snake-2022"
         },
     ],
     onWorkingProjects: [
+        {
+            name: "Jordi's Personal Portfolio",
+            description: "A customized React.js webApp to display the client's work.",
+            // imgurl: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674638005/pexels-negative-space-169573_l5pcut.jpg",
+            imgurl: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1708355998/thumbnail_Jordi_s_portfolio_nkf8oq.jpg",
+            url: "",
+            gitHubUrl: ""
+        },
         // {
-        //     name: "Blog Lo Común",
-        //     description: "A customemade blog site for a starting blogger that wants a unique and basic interface.",
+        //     name: "Tami's Personal Portfolio",
+        //     description: "A customized React.js webApp to display the client's work.",
         //     imgurl: "https://res.cloudinary.com/ddzhdj4yd/image/upload/v1674638005/pexels-negative-space-169573_l5pcut.jpg",
         //     url: "",
         //     gitHubUrl: ""
